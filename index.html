@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="website icon" type="png" href="Logo.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8b58737c09.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>SOFTWARE ENGINEER</p>
+                <h1>Hi, I Am <span>SARANG S BABU</span><br>From INDIA</h1>
+            </div>
+        </div>
+     </div>   
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Screenshot (334).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My approach to work is characterized by a combination of creativity and analytical thinking, allowing me to find innovative solutions to challenges while maintaining a focus on results. I excel at collaborating with cross-functional teams and adapting to new technologies and tools quickly.
+                        Beyond my professional pursuits, I am an avid [mention a hobby or interest that showcases your personality] which underscores my commitment to continuous learning and personal growth.
+                        I am excited to bring my unique perspective and expertise to contribute to a dynamic team and help achieve its goals.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('languages_known')">Languages Known</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI\UX</span><br>Designing the Page</li>
+                                <li><span>Machine Learning</span><br> Training the Data Models</li>
+                                <li><span>Data Science</span><br>Predicting using the graph</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="languages_known">
+                            <ul>
+                                <li><span>English</span></li>
+                                <li><span>Tamil</span></li>
+                                <li><span>Malayalam</span></li>
+                                <li><span>Hindi</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.E CSE</span><br>Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engineering College</li>
+                                <li><span>12TH</span><br>The Hindu Higher Secondary School</li>
+                                <li><span>10TH</span><br>The Hindu Higher Secondary School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list"><div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Data Science</h2>
+                <p>
+                    Data science is the study multidisciplinary 
+                    approach that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, 
+                    and computer engineering to analyze large amounts of data.
+                </p>
+                <a href="https://www.ibm.com/topics/data-science">Learn More</a></div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+                        The different areas of web design include web graphic design; user interface design (UI design); authoring, including 
+                        standardised code and proprietary software; user experience design (UX design); and search engine optimization. 
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn More</a></div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Machine Learning</h2>
+                        <p>
+                            Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use 
+                            of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
+                        </p>
+                        <a href="https://www.ibm.com/topics/machine-learning">Learn More</a></div>
+            </div>
+        </div>
+     </div>
+     <div id="project">
+        <div class="container">
+            <div class="sub-title">Projects</div>
+            <div class="worklist">
+                <div class="work">
+                    <img src="bitcoin.jpg">
+                    <div class="layer">
+                        <h3>Bitcoin Price Prediction</h3>
+                        <p>This Project will predict the price of the Bitcoin using the FBProphet model</p>
+                        <a href="https://github.com/sarang004/Bitcoin-Price-Prediction-using-fbProphet"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="House.png">
+                    <div class="layer">
+                        <h3>Boston-Price-Prediction-using-Machine-Learning</h3>
+                        <p>In this we have predicted the boston price prediction using some machine learning modules</p>
+                        <a href="https://github.com/sarang004/Boston-Price-Prediction-using-Machine-Learning"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ipl2.jpg">
+                    <div class="layer">
+                        <h3>IPL Win Prediction Model</h3>
+                        <p>This project we had created a model for the IPL prediction using the dataset which is upto 2017l\</p>
+                        <a href="https://github.com/sarang004/IPL---Win-Prediction-Model"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="https://github.com/sarang004" class="btn">See More</a>
+        </div>
+     </div>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> sarangsbabu68.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 9080744057</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/sarang.04/"><i class ="fab fa-instagram"></i></a>
+                        <a href="https://"><i class ="fab fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/sarang-s-babu-001784228/"><i class ="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sarang004"><i class ="fab fa-github"></i></a>
+                        <a href="sarangsbabu68@gmail.com"><i class ="fab fa-email"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © Sarang
+            </p>
+        </div>
+     </div>
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+     <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxLO3zuBLZ7KP6bbBi3xNtPUiRTuSmPhFgfpjtxUyZd31VA2Qs01dNJVc1hlpWHlOYXCA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message Submitted"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()})
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
